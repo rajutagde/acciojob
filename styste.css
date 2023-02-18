@@ -1,0 +1,53 @@
+body{
+font-size: 20px;
+
+
+}
+.flex-container{
+    display: flex;
+    
+    margin: 10;
+    padding: 10;
+    
+    
+    
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+    
+
+
+    
+    
+    
+
+}
+.flex-item{
+    width: 75px;
+    height: 75px;
+   
+    border: 2px solid blue;
+    text-align: center;
+    font-size: medium;
+    line-height: 1.4;
+    color: black;
+    font-weight: bold;
+
+}
+.item-1{
+    background-color: blue ;
+    order: 3;
+
+
+}
+.item-2{
+    background-color: blueviolet;
+}
+.box-3{
+    background-color: brown;
+
+}
+.box-4{
+    background-color: antiquewhite;
+}
